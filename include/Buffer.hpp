@@ -6,6 +6,8 @@ class Buffer {
 
         void bind() const;
 
+        uint32_t getID() const;
+
     private:
         void* m_Data;
         uint64_t m_Size;

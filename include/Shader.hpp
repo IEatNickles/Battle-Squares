@@ -26,6 +26,8 @@ class Shader {
 
         void bind() const;
 
+        uint32_t getID() const {return m_ProgramID;}
+
     private:
         int getUniformLocation(const std::string& name);
 

@@ -46,45 +46,63 @@ build cmake_object_order_depends_target_battle-squares: phony || cmake_object_or
 
 build CMakeFiles/battle-squares.dir/main.cpp.obj: CXX_COMPILER__battle-squares_unscanned_ C$:/dev/C++/Battle-Squares/main.cpp || cmake_object_order_depends_target_battle-squares
   DEP_FILE = CMakeFiles\battle-squares.dir\main.cpp.obj.d
-  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
+  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/./vendor/stb_image/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
   OBJECT_DIR = CMakeFiles\battle-squares.dir
   OBJECT_FILE_DIR = CMakeFiles\battle-squares.dir
 
 build CMakeFiles/battle-squares.dir/src/Buffer.cpp.obj: CXX_COMPILER__battle-squares_unscanned_ C$:/dev/C++/Battle-Squares/src/Buffer.cpp || cmake_object_order_depends_target_battle-squares
   DEP_FILE = CMakeFiles\battle-squares.dir\src\Buffer.cpp.obj.d
-  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
+  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/./vendor/stb_image/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
   OBJECT_DIR = CMakeFiles\battle-squares.dir
   OBJECT_FILE_DIR = CMakeFiles\battle-squares.dir\src
 
 build CMakeFiles/battle-squares.dir/src/Shader.cpp.obj: CXX_COMPILER__battle-squares_unscanned_ C$:/dev/C++/Battle-Squares/src/Shader.cpp || cmake_object_order_depends_target_battle-squares
   DEP_FILE = CMakeFiles\battle-squares.dir\src\Shader.cpp.obj.d
-  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
+  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/./vendor/stb_image/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
   OBJECT_DIR = CMakeFiles\battle-squares.dir
   OBJECT_FILE_DIR = CMakeFiles\battle-squares.dir\src
 
+build CMakeFiles/battle-squares.dir/src/Texture.cpp.obj: CXX_COMPILER__battle-squares_unscanned_ C$:/dev/C++/Battle-Squares/src/Texture.cpp || cmake_object_order_depends_target_battle-squares
+  DEP_FILE = CMakeFiles\battle-squares.dir\src\Texture.cpp.obj.d
+  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/./vendor/stb_image/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
+  OBJECT_DIR = CMakeFiles\battle-squares.dir
+  OBJECT_FILE_DIR = CMakeFiles\battle-squares.dir\src
+
+build CMakeFiles/battle-squares.dir/src/math/AABB.cpp.obj: CXX_COMPILER__battle-squares_unscanned_ C$:/dev/C++/Battle-Squares/src/math/AABB.cpp || cmake_object_order_depends_target_battle-squares
+  DEP_FILE = CMakeFiles\battle-squares.dir\src\math\AABB.cpp.obj.d
+  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/./vendor/stb_image/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
+  OBJECT_DIR = CMakeFiles\battle-squares.dir
+  OBJECT_FILE_DIR = CMakeFiles\battle-squares.dir\src\math
+
 build CMakeFiles/battle-squares.dir/src/math/Mat4.cpp.obj: CXX_COMPILER__battle-squares_unscanned_ C$:/dev/C++/Battle-Squares/src/math/Mat4.cpp || cmake_object_order_depends_target_battle-squares
   DEP_FILE = CMakeFiles\battle-squares.dir\src\math\Mat4.cpp.obj.d
-  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
+  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/./vendor/stb_image/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
   OBJECT_DIR = CMakeFiles\battle-squares.dir
   OBJECT_FILE_DIR = CMakeFiles\battle-squares.dir\src\math
 
 build CMakeFiles/battle-squares.dir/src/math/Transform.cpp.obj: CXX_COMPILER__battle-squares_unscanned_ C$:/dev/C++/Battle-Squares/src/math/Transform.cpp || cmake_object_order_depends_target_battle-squares
   DEP_FILE = CMakeFiles\battle-squares.dir\src\math\Transform.cpp.obj.d
-  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
+  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/./vendor/stb_image/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
   OBJECT_DIR = CMakeFiles\battle-squares.dir
   OBJECT_FILE_DIR = CMakeFiles\battle-squares.dir\src\math
 
 build CMakeFiles/battle-squares.dir/src/math/Vec2.cpp.obj: CXX_COMPILER__battle-squares_unscanned_ C$:/dev/C++/Battle-Squares/src/math/Vec2.cpp || cmake_object_order_depends_target_battle-squares
   DEP_FILE = CMakeFiles\battle-squares.dir\src\math\Vec2.cpp.obj.d
-  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
+  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/./vendor/stb_image/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
   OBJECT_DIR = CMakeFiles\battle-squares.dir
   OBJECT_FILE_DIR = CMakeFiles\battle-squares.dir\src\math
 
 build CMakeFiles/battle-squares.dir/src/math/Vec4.cpp.obj: CXX_COMPILER__battle-squares_unscanned_ C$:/dev/C++/Battle-Squares/src/math/Vec4.cpp || cmake_object_order_depends_target_battle-squares
   DEP_FILE = CMakeFiles\battle-squares.dir\src\math\Vec4.cpp.obj.d
-  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
+  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/./vendor/stb_image/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
   OBJECT_DIR = CMakeFiles\battle-squares.dir
   OBJECT_FILE_DIR = CMakeFiles\battle-squares.dir\src\math
+
+build CMakeFiles/battle-squares.dir/vendor/stb_image/src/stb_image.cpp.obj: CXX_COMPILER__battle-squares_unscanned_ C$:/dev/C++/Battle-Squares/vendor/stb_image/src/stb_image.cpp || cmake_object_order_depends_target_battle-squares
+  DEP_FILE = CMakeFiles\battle-squares.dir\vendor\stb_image\src\stb_image.cpp.obj.d
+  INCLUDES = -IC:/dev/C++/Battle-Squares/./include -IC:/dev/C++/Battle-Squares/./vendor/glad/include -IC:/dev/C++/Battle-Squares/./vendor/glfw/include -IC:/dev/C++/Battle-Squares/./vendor/stb_image/include -IC:/dev/C++/Battle-Squares/vendor/glfw/include
+  OBJECT_DIR = CMakeFiles\battle-squares.dir
+  OBJECT_FILE_DIR = CMakeFiles\battle-squares.dir\vendor\stb_image\src
 
 
 # =============================================================================
@@ -94,7 +112,7 @@ build CMakeFiles/battle-squares.dir/src/math/Vec4.cpp.obj: CXX_COMPILER__battle-
 #############################################
 # Link the executable battle-squares.exe
 
-build battle-squares.exe: CXX_EXECUTABLE_LINKER__battle-squares_ CMakeFiles/battle-squares.dir/main.cpp.obj CMakeFiles/battle-squares.dir/src/Buffer.cpp.obj CMakeFiles/battle-squares.dir/src/Shader.cpp.obj CMakeFiles/battle-squares.dir/src/math/Mat4.cpp.obj CMakeFiles/battle-squares.dir/src/math/Transform.cpp.obj CMakeFiles/battle-squares.dir/src/math/Vec2.cpp.obj CMakeFiles/battle-squares.dir/src/math/Vec4.cpp.obj | vendor/glad/libglad.a vendor/glfw/src/libglfw3.a || vendor/glad/libglad.a vendor/glfw/src/libglfw3.a
+build battle-squares.exe: CXX_EXECUTABLE_LINKER__battle-squares_ CMakeFiles/battle-squares.dir/main.cpp.obj CMakeFiles/battle-squares.dir/src/Buffer.cpp.obj CMakeFiles/battle-squares.dir/src/Shader.cpp.obj CMakeFiles/battle-squares.dir/src/Texture.cpp.obj CMakeFiles/battle-squares.dir/src/math/AABB.cpp.obj CMakeFiles/battle-squares.dir/src/math/Mat4.cpp.obj CMakeFiles/battle-squares.dir/src/math/Transform.cpp.obj CMakeFiles/battle-squares.dir/src/math/Vec2.cpp.obj CMakeFiles/battle-squares.dir/src/math/Vec4.cpp.obj CMakeFiles/battle-squares.dir/vendor/stb_image/src/stb_image.cpp.obj | vendor/glad/libglad.a vendor/glfw/src/libglfw3.a || vendor/glad/libglad.a vendor/glfw/src/libglfw3.a
   LINK_LIBRARIES = vendor/glad/libglad.a  vendor/glfw/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\battle-squares.dir
   POST_BUILD = cd .

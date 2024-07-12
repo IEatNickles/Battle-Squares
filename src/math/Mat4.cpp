@@ -34,6 +34,15 @@ Mat4 Mat4::fromRotation(float rotation) {
             Vec4(0.0f, 0.0f, 0.0f, 1.0f));
 }
 
+Mat4 Mat4::fromShear(const Vec2& shear) {
+    return Mat4::fromRows(
+            Vec4(1.0f, shear.y, 0.0f, 0.0f),
+            Vec4(shear.x, 1.0f, 0.0f, 0.0f),
+            Vec4(0.0f, 0.0f, 1.0f, 0.0f),
+            Vec4(0.0f, 0.0f, 0.0f, 1.0f)
+            );
+}
+
 Mat4 Mat4::fromScale(const Vec2& scale) {
     return Mat4::fromRows(
             Vec4(scale.x, 0.0f, 0.0f, 0.0f),

@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.8)
 project(battle-squares)
 
-add_subdirectory("./vendor/glad")
-add_subdirectory("./vendor/glfw")
+add_subdirectory("./vendor/glad/")
+add_subdirectory("./vendor/glfw/")
 
-file(GLOB_RECURSE SRC "./src/*.cpp")
+file(GLOB_RECURSE SRC "./src/*.cpp" "./vendor/stb_image/src/stb_image.cpp")
 
 add_executable(battle-squares "./main.cpp" ${SRC})
 
@@ -14,4 +14,5 @@ target_include_directories(battle-squares PRIVATE
     "./include"
     "./vendor/glad/include/"
     "./vendor/glfw/include/"
+    "./vendor/stb_image/include/"
 )

@@ -13,6 +13,7 @@ struct Mat4 {
     static Mat4 fromTranslation(const Vec2& translation);
     static Mat4 fromRotation(float rotation);
     static Mat4 fromScale(const Vec2& scale);
+    static Mat4 fromShear(const Vec2& shear);
 
     Mat4 add(const Mat4& other);
     Mat4 sub(const Mat4& other);
