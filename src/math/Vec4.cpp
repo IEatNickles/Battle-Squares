@@ -54,5 +54,17 @@ float Vec4::dot(const Vec4& other) {
 }
 Vec4 Vec4::cross(const Vec4& other) {
     ASSERT(false, "Cross product is unimplemented");
-    return VEC4_ZERO;
+    return Vec4::zero();
+}
+
+Vec4 Vec4::zero() {
+    return Vec4(0.0f);
+}
+
+Vec4 Vec4::one() {
+    return Vec4(1.0f);
+}
+
+void Vec4::print() const {
+    printf("<%f, %f, %f, %f>\n", x, y, z, w);
 }

@@ -15,6 +15,8 @@ struct Mat4 {
     static Mat4 fromScale(const Vec2& scale);
     static Mat4 fromShear(const Vec2& shear);
 
+    static Mat4 identity();
+
     Mat4 add(const Mat4& other);
     Mat4 sub(const Mat4& other);
     Mat4 mul(const Mat4& other);
@@ -22,6 +24,8 @@ struct Mat4 {
     Mat4 transpose();
 
     Vec4 getCol(int idx) const;
+
+    float *ptr();
 
     static Mat4 createOrtho(float left, float right, float bottom, float top, float near, float far);
 

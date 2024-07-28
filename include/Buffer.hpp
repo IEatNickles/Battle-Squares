@@ -1,8 +1,13 @@
+#pragma once
+
 #include <cstdint>
 
 class Buffer {
     public:
-        Buffer(uint32_t target, void* data, uint64_t size);
+        Buffer();
+        Buffer(uint32_t target, void* data, int64_t size);
+
+        void setSubData(void* data, int64_t offset, int64_t size);
 
         void bind() const;
 

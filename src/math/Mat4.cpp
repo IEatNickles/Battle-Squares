@@ -51,6 +51,15 @@ Mat4 Mat4::fromScale(const Vec2& scale) {
             Vec4(0.0f, 0.0f, 0.0f, 1.0f));
 }
 
+Mat4 Mat4::identity() {
+    return Mat4::fromRows(
+            Vec4(1.0f, 0.0f, 0.0f, 0.0f),
+            Vec4(0.0f, 1.0f, 0.0f, 0.0f),
+            Vec4(0.0f, 0.0f, 1.0f, 0.0f),
+            Vec4(0.0f, 0.0f, 0.0f, 1.0f)
+            );
+}
+
 Mat4 Mat4::add(const Mat4& other) {
     return Mat4::fromRows(
             rows[0].add(other.rows[0]),
@@ -91,6 +100,10 @@ Mat4 Mat4::createOrtho(float l, float r, float b, float t, float n, float f) {
             Vec4(0.0f,           0.0f,           -2.0f / (f - n), -((f + n) / (f - n))),
             Vec4(0.0f,           0.0f,           0.0f,            1.0f)
     );
+}
+
+float *Mat4::ptr() {
+    return &rows[0].x;
 }
 
 void Mat4::printRows() const {

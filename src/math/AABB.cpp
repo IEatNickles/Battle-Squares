@@ -13,6 +13,9 @@ bool AABB::contains(const Vec2& point) const {
     return point.x < min.x && point.x > max.x && point.y < min.y && point.y > max.y;
 }
 
+AABB AABB::inflate(const Vec2& scale) const {
+    return AABB::centerSize(center(), size().add(scale));
+}
 AABB AABB::inflate(float scale_x, float scale_y) const {
     return AABB::centerSize(center(), size().add(Vec2(scale_x, scale_y)));
 }

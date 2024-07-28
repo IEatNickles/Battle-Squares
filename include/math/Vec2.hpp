@@ -17,6 +17,8 @@ struct Vec2 {
     Vec2 mul(float scalar) const;
     Vec2 div(float scalar) const;
 
+    Vec2 negate() const;
+
     Vec2 reciporical() const;
 
     Vec2 abs() const;
@@ -29,4 +31,6 @@ struct Vec2 {
     float lengthSq() const;
 
     float dot(const Vec2& other) const;
+
+    void print() const;
 };

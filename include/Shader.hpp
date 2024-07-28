@@ -6,6 +6,7 @@
 
 #include <string>
 #include <cstdint>
+#include <unordered_map>
 
 #define ASSERT(expr, fmt, args...) if (!(expr)) {\
     printf("Assertion Failed: " fmt, args);\
@@ -26,11 +27,12 @@ class Shader {
 
         void bind() const;
 
-        uint32_t getID() const {return m_ProgramID;}
+        uint32_t getID() const { return m_ProgramID; }
 
     private:
         int getUniformLocation(const std::string& name);
 
     private:
         uint32_t m_ProgramID = 0;
+        std::unordered_map<std::string, int> m_UniformLocs{};
 };

@@ -1,5 +1,6 @@
 #include "math/Vec2.hpp"
 #include <cmath>
+#include <cstdio>
 #include <cstdlib>
 
 #define ASSERT(expr, fmt) if (!(expr)) {\
@@ -26,6 +27,10 @@ Vec2 Vec2::mul(const Vec2& other) const {
 }
 Vec2 Vec2::div(const Vec2& other) const {
     return Vec2(x / other.x, y / other.y);
+}
+
+Vec2 Vec2::negate() const {
+    return Vec2(-x, -y);
 }
 
 Vec2 Vec2::mul(float scalar) const {
@@ -60,4 +65,8 @@ float Vec2::lengthSq() const {
 
 float Vec2::dot(const Vec2& other) const {
     return x * other.x + y * other.y;
+}
+
+void Vec2::print() const {
+    printf("<%f, %f>\n", x, y);
 }

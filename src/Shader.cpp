@@ -87,12 +87,16 @@ void Shader::setVec4(const std::string& name, Vec4 value) {
 }
 
 void Shader::setMat4(const std::string& name, Mat4 value) {
-    glProgramUniformMatrix4fv(m_ProgramID, getUniformLocation(name), 1, GL_FALSE, &value.rows[0].x);
+    glProgramUniformMatrix4fv(m_ProgramID, getUniformLocation(name), 1, GL_FALSE, value.ptr());
 }
 
 int Shader::getUniformLocation(const std::string& name) {
+    if (m_UniformLocs.contains(name)) {
+        return m_UniformLocs.at(name);
+    }
     int location = glGetUniformLocation(m_ProgramID, name.c_str());
     ASSERT(location > -1, "The uniform '%s' does not exist", name.c_str());
+    m_UniformLocs.emplace(name, location);
     return location;
 }
 

@@ -1,3 +1,5 @@
+#pragma once
+
 #include "math/Vec2.hpp"
 
 struct AABB {
@@ -11,6 +13,7 @@ struct AABB {
     bool intersects(const AABB& other) const;
     bool contains(const Vec2& point) const;
 
+    AABB inflate(const Vec2& scale) const;
     AABB inflate(float scale_x, float scale_y) const;
     AABB inflate(float scale) const;
 

@@ -4,9 +4,10 @@
 #include "math/Vec2.hpp"
 
 struct Transform {
-    Vec2 translation;
+    Vec2 position;
     float rotation;
     Vec2 scale;
+    Vec2 shear;
 
     static Transform identity();
 
